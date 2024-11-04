@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: GH200 cluster notes
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+## Get started
+- Finetuning with [[LLaMA-Factory]]
+- Inference with [[VLLM]]
