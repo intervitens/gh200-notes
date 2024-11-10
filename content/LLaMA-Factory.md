@@ -35,7 +35,7 @@ FORCE_TORCHRUN=1 NNODES=12 MASTER_ADDR=192.168.136.183 MASTER_PORT=29500 llamafa
 
 ### Deepspeed config
 Changes:
-- `stage3_gather_16bit_weights_on_model_save` set to `false` to prevent failure during checkpoints. To get model weights after training, follow [[Deepspeed checkpoint]]
+- `stage3_gather_16bit_weights_on_model_save` set to `false` to prevent failure during checkpoints. To get model weights after training, follow [[DeepSpeed checkpoint]]
 - `stage3_max_live_parameters`, `stage3_max_reuse_distance`, `sub_group_size` changed to 0 to reduce VRAM usage, may be changed to the default `1e9` or something else if the model fits comfortably into VRAM
 ```
 {

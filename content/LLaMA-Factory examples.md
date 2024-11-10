@@ -9,7 +9,7 @@ add to `data/dataset_info.json`
 ```
 
 ### Example configs
-```
+```yaml
 ### model
 model_name_or_path: ./Qwen_Qwen2.5-32B
 
